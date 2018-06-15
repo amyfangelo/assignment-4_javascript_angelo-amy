@@ -1,4 +1,4 @@
-//array
+//arrays & string
 
 var iceCream;
 iceCream = ["matcha", "chocolate", "vanilla"];
@@ -6,7 +6,7 @@ console.log(iceCream);
 
 var iceCream = "lavendar" ;
 
-//objects
+//objects in array
 
 var presidents1 = {
   firstName: 'Donald',
@@ -50,3 +50,12 @@ var presidents5 = {
 
 var presidents = ['presidents1', 'presidents2', 'presidents3', 'presidents4', 'presidents5' ];
 console.log(presidents3.firstName + presidents3.lastName);
+
+//functions
+
+function howdy( person, message ){
+  return person + ' says ' + message;
+}
+
+var message = howdy('Amy Angelo', 'Hi' );
+console.log( message );
