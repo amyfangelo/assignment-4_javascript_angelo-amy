@@ -2,7 +2,6 @@
 
 var iceCream;
 iceCream = ["matcha", "chocolate", "vanilla"];
-console.log(iceCream);
 
 var iceCream = "lavendar" ;
 
@@ -53,9 +52,29 @@ console.log(presidents3.firstName + presidents3.lastName);
 
 //functions
 
-function howdy( person, message ){
+function howdy( person, message ) {
   return person + ' says ' + message;
 }
 
 var message = howdy('Amy Angelo', 'Hi' );
 console.log( message );
+
+
+
+
+
+
+//6b
+
+ var numba = function (string) {
+    if (string < 7 )
+return('What a short little word!' );
+
+
+else if  (string > 7 )
+return ('I am sorry, but that is too many to count' )
+
+ else (string == 7)
+return( '7, what a perfect choice!' );
+
+}
