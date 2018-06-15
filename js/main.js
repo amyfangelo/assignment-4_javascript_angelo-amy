@@ -49,4 +49,4 @@ var presidents5 = {
 };
 
 var presidents = ['presidents1', 'presidents2', 'presidents3', 'presidents4', 'presidents5' ];
-console.log(presidents3);
+console.log(presidents3.firstName + presidents3.lastName);
