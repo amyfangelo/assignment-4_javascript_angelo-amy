@@ -5,6 +5,7 @@ iceCream = ["matcha", "chocolate", "vanilla"];
 
 var iceCream = "lavendar" ;
 
+
 //objects in array
 
 var presidents1 = {
@@ -57,12 +58,6 @@ function howdy( person, message ) {
 }
 
 var message = howdy('Amy Angelo', 'Hi' );
-console.log( message );
-
-
-
-
-
 
 //6b
 
@@ -70,11 +65,28 @@ console.log( message );
     if (string < 7 )
 return('What a short little word!' );
 
-
 else if  (string > 7 )
 return ('I am sorry, but that is too many to count' )
 
- else (string == 7)
+ else if (string === 7)
 return( '7, what a perfect choice!' );
 
 }
+
+function numba (string) {
+  return (
+  console.log ('7'),
+  console.log ('seventy'),
+  console.log ('university')
+)
+
+}
+
+function inception( display, favMovie ) {
+display(favMovie);
+}
+
+function movieLogger (movie) {
+    console.log (movie + ' '+ 'is a fantastic movie.');
+}
+inception(movieLogger, 'Shrek');
