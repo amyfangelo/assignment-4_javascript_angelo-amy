@@ -1,12 +1,3 @@
-//array
-
-var iceCream;
-iceCream = ["matcha", "chocolate", "vanilla"];
-console.log(iceCream);
-
-var iceCream = "lavendar" ;
-
-//objects
 
 var presidents1 = {
   firstName: 'Donald',
